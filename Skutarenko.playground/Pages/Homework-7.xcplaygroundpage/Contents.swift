@@ -22,13 +22,12 @@ for _ in 0...nameAndDaysArray.count - 1 {
     index -= 1
 }
 
-let monthOfBirthday = 10
-let dayOfBirthday = 22
+let birthdayDoB = (month: 10, day: 22)
 var sumOfDaysBeforeBTHD = 0
-for i in 0...monthOfBirthday - 2 {
+for i in 0...birthdayDoB.month - 2 {
     sumOfDaysBeforeBTHD += daysOfMonth[i]
 }
-sumOfDaysBeforeBTHD += dayOfBirthday
+sumOfDaysBeforeBTHD += birthdayDoB.day
 print("There are \(sumOfDaysBeforeBTHD) days will be passed since the beggining of the year until my birthday")
 
 // TASK 2:
