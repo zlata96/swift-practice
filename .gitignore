@@ -1,6 +1,7 @@
 # Swift Playgrounds
 
 *.xcuserdata
+xcuserdata/
 Skutarenko.playground/xcuserdata/
 
 # Xcode
