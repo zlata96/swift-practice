@@ -22,13 +22,13 @@ for _ in 0...nameAndDaysArray.count - 1 {
     index -= 1
 }
 
-let birthdayDoB = (month: 10, day: 22)
-var sumOfDaysBeforeBTHD = 0
-for i in 0...birthdayDoB.month - 2 {
-    sumOfDaysBeforeBTHD += daysOfMonth[i]
+let date = (month: 10, day: 22)
+var sumDays = 0
+for i in 0...date.month - 2 {
+    sumDays += daysOfMonth[i]
 }
-sumOfDaysBeforeBTHD += birthdayDoB.day
-print("There are \(sumOfDaysBeforeBTHD) days will be passed since the beggining of the year until my birthday")
+sumDays += date.day
+print("There are \(sumDays) days will be passed since the beggining of the year until my birthday")
 
 // TASK 2:
 
@@ -37,9 +37,9 @@ var sumOfElements = 0
 
 // a) Optional binding
 
-for i in 0...optionalArray.count - 1 {
-    if let a = optionalArray[i] {
-    sumOfElements += a
+for element in optionalArray {
+    if let element = element {
+        sumOfElements += element
     }
 }
 print(sumOfElements)
@@ -50,7 +50,7 @@ sumOfElements = 0
 
 for i in 0...optionalArray.count - 1 {
     if optionalArray[i] != nil {
-    sumOfElements += optionalArray[i]!
+        sumOfElements += optionalArray[i]!
     }
 }
 print(sumOfElements)
@@ -61,7 +61,7 @@ sumOfElements = 0
 
 for i in 0...optionalArray.count - 1 {
     sumOfElements += optionalArray[i] ?? 0
-    }
+}
 print(sumOfElements)
 
 // TASK 3: Create reversed array from string
@@ -69,19 +69,28 @@ print(sumOfElements)
 var englishAlphabet = "abcdefghijklmnopqrstuvwxyz"
 var reversedEnglishAlphabetArray: [String] = []
 
-// First way:
-// string - > array
 
+// First way:
 var englishAlphabetArray = Array(englishAlphabet)
+
+// a) Append
 
 for i in 0...englishAlphabetArray.count - 1 {
     reversedEnglishAlphabetArray.append(String(englishAlphabetArray[englishAlphabet.count - 1 - i]))
 }
+print(reversedEnglishAlphabetArray)
 
+// b) Insert
+
+reversedEnglishAlphabetArray = []
+
+for element in englishAlphabetArray {
+    reversedEnglishAlphabetArray.insert(String(element), at: 0)
+}
 print(reversedEnglishAlphabetArray)
 
 // Second way:
-// reversed()
+// Use function reversed()
 
 reversedEnglishAlphabetArray = []
 
@@ -89,5 +98,4 @@ for character in englishAlphabet {
     reversedEnglishAlphabetArray.append(String(character))
 }
 reversedEnglishAlphabetArray = reversedEnglishAlphabetArray.reversed()
-
 print(reversedEnglishAlphabetArray)
