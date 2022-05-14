@@ -99,3 +99,10 @@ for character in englishAlphabet {
 }
 reversedEnglishAlphabetArray = reversedEnglishAlphabetArray.reversed()
 print(reversedEnglishAlphabetArray)
+
+// Additional TASK: Enumerated
+
+var shoppingList = ["Apples", "Eggs", "Milk", "Orange"]
+for (index, value) in shoppingList.enumerated() {
+    print("Item \(index + 1): \(value)")
+}
