@@ -30,11 +30,7 @@ for i in x {
 
 func getColor(x: String, y: String) -> String {
     if let chessValue = chessDict["\(x)\(y)"] {
-        if chessValue {
-            return "white"
-        } else {
-            return "black"
-        }
+        return chessValue ? "white" : "black"
     } else {
         return "error"
     }
@@ -72,3 +68,18 @@ func reversedArray(array: inout [Int]) {
 }
 
 reversedArray(array: &array2)
+
+func fact(_ number: Int) -> Int {
+    if number == 1 {
+        return 1
+    }
+    print(number * fact(number - 1))
+    return number * fact(number - 1)
+}
+
+fact(1)
+fact(2)
+fact(3)
+fact(4)
+fact(5)
+
