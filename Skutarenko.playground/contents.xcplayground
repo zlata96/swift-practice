@@ -36,5 +36,6 @@
         <page name='Lesson-21. Initialization. Part 3'/>
         <page name='DeepDive. Closures'/>
         <page name='DeepDive. Extension'/>
+        <page name='DeepDive. AS, AS?, AS!, IS'/>
     </pages>
 </playground>
