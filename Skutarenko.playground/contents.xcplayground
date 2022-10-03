@@ -37,5 +37,10 @@
         <page name='DeepDive. Closures'/>
         <page name='DeepDive. Extension'/>
         <page name='DeepDive. AS, AS?, AS!, IS'/>
+        <page name='The Swift Singletone object'/>
+        <page name='Optional Chaining'/>
+        <page name='UserDefaults'/>
+        <page name='TypeCasting'/>
+        <page name='Homework-23'/>
     </pages>
 </playground>
