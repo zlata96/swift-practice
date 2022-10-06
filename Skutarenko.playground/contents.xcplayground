@@ -42,6 +42,7 @@
         <page name='UserDefaults'/>
         <page name='TypeCasting'/>
         <page name='Homework-23'/>
-        <page name='Lesson-23.Extensions'/>
+        <page name='Lesson-24.Extensions'/>
+        <page name='Homework-24'/>
     </pages>
 </playground>
