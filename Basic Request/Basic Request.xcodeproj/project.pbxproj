@@ -12,6 +12,8 @@
 		CE5D91202975A17A00640E85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5D911E2975A17A00640E85 /* Main.storyboard */; };
 		CE5D91222975A17E00640E85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE5D91212975A17E00640E85 /* Assets.xcassets */; };
 		CE5D91252975A17E00640E85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5D91232975A17E00640E85 /* LaunchScreen.storyboard */; };
+		CE5D912D2975B35200640E85 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5D912C2975B35200640E85 /* Joke.swift */; };
+		CE5D912F2975B67E00640E85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5D912E2975B67E00640E85 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		CE5D91212975A17E00640E85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE5D91242975A17E00640E85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE5D91262975A17E00640E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE5D912C2975B35200640E85 /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
+		CE5D912E2975B67E00640E85 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../../ARC_Practice/ARC_Practice/SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,7 @@
 		CE5D910C2975A17900640E85 = {
 			isa = PBXGroup;
 			children = (
+				CE5D912C2975B35200640E85 /* Joke.swift */,
 				CE5D91172975A17A00640E85 /* Basic Request */,
 				CE5D91162975A17A00640E85 /* Products */,
 			);
@@ -56,6 +61,7 @@
 			children = (
 				CE5D91182975A17A00640E85 /* AppDelegate.swift */,
 				CE5D911C2975A17A00640E85 /* ViewController.swift */,
+				CE5D912E2975B67E00640E85 /* SceneDelegate.swift */,
 				CE5D911E2975A17A00640E85 /* Main.storyboard */,
 				CE5D91212975A17E00640E85 /* Assets.xcassets */,
 				CE5D91232975A17E00640E85 /* LaunchScreen.storyboard */,
@@ -137,6 +143,8 @@
 			files = (
 				CE5D911D2975A17A00640E85 /* ViewController.swift in Sources */,
 				CE5D91192975A17A00640E85 /* AppDelegate.swift in Sources */,
+				CE5D912D2975B35200640E85 /* Joke.swift in Sources */,
+				CE5D912F2975B67E00640E85 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
