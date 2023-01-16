@@ -14,6 +14,10 @@
 		CE5D91252975A17E00640E85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5D91232975A17E00640E85 /* LaunchScreen.storyboard */; };
 		CE5D912D2975B35200640E85 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5D912C2975B35200640E85 /* Joke.swift */; };
 		CE5D912F2975B67E00640E85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5D912E2975B67E00640E85 /* SceneDelegate.swift */; };
+		CE5D91342975B8F800640E85 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5D91332975B8F800640E85 /* ApiManager.swift */; };
+		CE5D91362975BC1500640E85 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5D91352975BC1500640E85 /* Users.swift */; };
+		CE5D91382975BC8400640E85 /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5D91372975BC8400640E85 /* Posts.swift */; };
+		CE5D913A2975BCBD00640E85 /* Albums.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5D91392975BCBD00640E85 /* Albums.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		CE5D91262975A17E00640E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE5D912C2975B35200640E85 /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
 		CE5D912E2975B67E00640E85 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../../ARC_Practice/ARC_Practice/SceneDelegate.swift; sourceTree = "<group>"; };
+		CE5D91332975B8F800640E85 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		CE5D91352975BC1500640E85 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		CE5D91372975BC8400640E85 /* Posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
+		CE5D91392975BCBD00640E85 /* Albums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Albums.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +50,6 @@
 		CE5D910C2975A17900640E85 = {
 			isa = PBXGroup;
 			children = (
-				CE5D912C2975B35200640E85 /* Joke.swift */,
 				CE5D91172975A17A00640E85 /* Basic Request */,
 				CE5D91162975A17A00640E85 /* Products */,
 			);
@@ -59,15 +66,44 @@
 		CE5D91172975A17A00640E85 /* Basic Request */ = {
 			isa = PBXGroup;
 			children = (
+				CE5D912C2975B35200640E85 /* Joke.swift */,
 				CE5D91182975A17A00640E85 /* AppDelegate.swift */,
-				CE5D911C2975A17A00640E85 /* ViewController.swift */,
+				CE5D91302975B8BD00640E85 /* API */,
 				CE5D912E2975B67E00640E85 /* SceneDelegate.swift */,
 				CE5D911E2975A17A00640E85 /* Main.storyboard */,
+				CE5D911C2975A17A00640E85 /* ViewController.swift */,
 				CE5D91212975A17E00640E85 /* Assets.xcassets */,
 				CE5D91232975A17E00640E85 /* LaunchScreen.storyboard */,
 				CE5D91262975A17E00640E85 /* Info.plist */,
 			);
 			path = "Basic Request";
+			sourceTree = "<group>";
+		};
+		CE5D91302975B8BD00640E85 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				CE5D91312975B8CF00640E85 /* models */,
+				CE5D91322975B8D800640E85 /* services */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		CE5D91312975B8CF00640E85 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				CE5D91392975BCBD00640E85 /* Albums.swift */,
+				CE5D91372975BC8400640E85 /* Posts.swift */,
+				CE5D91352975BC1500640E85 /* Users.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		CE5D91322975B8D800640E85 /* services */ = {
+			isa = PBXGroup;
+			children = (
+				CE5D91332975B8F800640E85 /* ApiManager.swift */,
+			);
+			path = services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +178,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE5D911D2975A17A00640E85 /* ViewController.swift in Sources */,
+				CE5D91382975BC8400640E85 /* Posts.swift in Sources */,
 				CE5D91192975A17A00640E85 /* AppDelegate.swift in Sources */,
+				CE5D913A2975BCBD00640E85 /* Albums.swift in Sources */,
+				CE5D91342975B8F800640E85 /* ApiManager.swift in Sources */,
 				CE5D912D2975B35200640E85 /* Joke.swift in Sources */,
+				CE5D91362975BC1500640E85 /* Users.swift in Sources */,
 				CE5D912F2975B67E00640E85 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
