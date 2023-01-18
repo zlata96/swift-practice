@@ -14,6 +14,7 @@
 		CE5D919129780E7E00640E85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE5D919029780E7E00640E85 /* Assets.xcassets */; };
 		CE5D919429780E7E00640E85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5D919229780E7E00640E85 /* LaunchScreen.storyboard */; };
 		CE5D919C29786CDE00640E85 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5D919B29786CDE00640E85 /* Post.swift */; };
+		CE5D919E297876DC00640E85 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5D919D297876DC00640E85 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		CE5D919329780E7E00640E85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE5D919529780E7E00640E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE5D919B29786CDE00640E85 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		CE5D919D297876DC00640E85 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				CE5D918D29780E7900640E85 /* Main.storyboard */,
 				CE5D919029780E7E00640E85 /* Assets.xcassets */,
 				CE5D919229780E7E00640E85 /* LaunchScreen.storyboard */,
+				CE5D919D297876DC00640E85 /* NetworkManager.swift */,
 				CE5D919529780E7E00640E85 /* Info.plist */,
 			);
 			path = HTTPRequest;
@@ -143,6 +146,7 @@
 			files = (
 				CE5D918C29780E7900640E85 /* ViewController.swift in Sources */,
 				CE5D918829780E7900640E85 /* AppDelegate.swift in Sources */,
+				CE5D919E297876DC00640E85 /* NetworkManager.swift in Sources */,
 				CE5D918A29780E7900640E85 /* SceneDelegate.swift in Sources */,
 				CE5D919C29786CDE00640E85 /* Post.swift in Sources */,
 			);
