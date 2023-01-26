@@ -5,6 +5,7 @@
 //
 
 import UIKit
+import Alamofire
 
 class ViewController: UIViewController {
     let networkManager = NetworkManager()
