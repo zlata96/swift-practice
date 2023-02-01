@@ -8,38 +8,39 @@ import UIKit
 import Alamofire
 
 class ViewController: UIViewController {
-    let networkManager = NetworkManager()
-    var dataSource = [Post]()
+    var array = [String]()
+    let key = "c8TvrV5RLFFziOP7Rwqyl0i6E8NE7wRu"
+    let url = "http://api.apilayer.com/fixer/convert?to=to&from=from&amount=amount&apikey=c8TvrV5RLFFziOP7Rwqyl0i6E8NE7wRu"
+
 
     @IBOutlet weak var tableView: UITableView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.dataSource = self
-        networkManager.obtainPosts { [weak self] (result) in
-            switch result {
-            case .success(let posts) :
-                self?.dataSource = posts
-                DispatchQueue.main.async {
-                    self?.tableView.reloadData()
-                }
-            case .failure(let error) :
-                print(error)
-            }
+        getPrice(url: "\(url)\(key)")
+    }
+
+    func getPrice(url: String) {
+        AF.request(url).responseJSON { response in
+            print(response)
         }
+    }
+    func setupURL() -> URLRequest {
+        var request = URLRequest(url: URL(string: url)!,timeoutInterval: Double.infinity)
+           request.httpMethod = "GET"
+           request.addValue(key, forHTTPHeaderField: "apikey")
+        return request
     }
 }
 
 extension ViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        dataSource.count
+        array.count
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "identifier", for: indexPath)
-        let post = dataSource[indexPath.row]
-        cell.textLabel?.text = post.title
-        cell.detailTextLabel?.text = post.body
+        cell.textLabel?.text = array[indexPath.row]
         return cell
     }
 }
