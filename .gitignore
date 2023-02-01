@@ -53,3 +53,54 @@ playground.xcworkspace
 # .swiftpm
 
 .build/
+begin/Podfile
+begin/Podfile.lock
+begin/Pods/Manifest.lock
+begin/Pods/Alamofire/LICENSE
+begin/Pods/Alamofire/README.md
+begin/Pods/Alamofire/Source/AFError.swift
+begin/Pods/Alamofire/Source/Alamofire.swift
+begin/Pods/Alamofire/Source/AlamofireExtended.swift
+begin/Pods/Alamofire/Source/CachedResponseHandler.swift
+begin/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift
+begin/Pods/Alamofire/Source/EventMonitor.swift
+begin/Pods/Alamofire/Source/HTTPHeaders.swift
+begin/Pods/Alamofire/Source/HTTPMethod.swift
+begin/Pods/Alamofire/Source/MultipartFormData.swift
+begin/Pods/Alamofire/Source/MultipartUpload.swift
+begin/Pods/Alamofire/Source/NetworkReachabilityManager.swift
+begin/Pods/Alamofire/Source/Notifications.swift
+begin/Pods/Alamofire/Source/OperationQueue+Alamofire.swift
+begin/Pods/Alamofire/Source/ParameterEncoder.swift
+begin/Pods/Alamofire/Source/ParameterEncoding.swift
+begin/Pods/Alamofire/Source/Protector.swift
+begin/Pods/Alamofire/Source/RedirectHandler.swift
+begin/Pods/Alamofire/Source/Request.swift
+begin/Pods/Alamofire/Source/RequestInterceptor.swift
+begin/Pods/Alamofire/Source/RequestTaskMap.swift
+begin/Pods/Alamofire/Source/Response.swift
+begin/Pods/Alamofire/Source/ResponseSerialization.swift
+begin/Pods/Alamofire/Source/Result+Alamofire.swift
+begin/Pods/Alamofire/Source/RetryPolicy.swift
+begin/Pods/Alamofire/Source/ServerTrustEvaluation.swift
+begin/Pods/Alamofire/Source/Session.swift
+begin/Pods/Alamofire/Source/SessionDelegate.swift
+begin/Pods/Alamofire/Source/URLConvertible+URLRequestConvertible.swift
+begin/Pods/Alamofire/Source/URLEncodedFormEncoder.swift
+begin/Pods/Alamofire/Source/URLRequest+Alamofire.swift
+begin/Pods/Alamofire/Source/URLSessionConfiguration+Alamofire.swift
+begin/Pods/Alamofire/Source/Validation.swift
+begin/Pods/Pods.xcodeproj/project.pbxproj
+begin/Pods/Target Support Files/Alamofire/Alamofire-dummy.m
+begin/Pods/Target Support Files/Alamofire/Alamofire-Info.plist
+begin/Pods/Target Support Files/Alamofire/Alamofire-prefix.pch
+begin/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h
+begin/Pods/Target Support Files/Alamofire/Alamofire.modulemap
+begin/Pods/Target Support Files/Alamofire/Alamofire.xcconfig
+begin/Pods/Target Support Files/Pods-StarWarsOpedia/Pods-StarWarsOpedia-acknowledgements.markdown
+begin/Pods/Target Support Files/Pods-StarWarsOpedia/Pods-StarWarsOpedia-acknowledgements.plist
+begin/Pods/Target Support Files/Pods-StarWarsOpedia/Pods-StarWarsOpedia-dummy.m
+begin/Pods/Target Support Files/Pods-StarWarsOpedia/Pods-StarWarsOpedia-frameworks-Debug-input-files.xcfilelist
+begin/Pods/Target Support Files/Pods-StarWarsOpedia/Pods-StarWarsOpedia-frameworks-Debug-output-files.xcfilelist
+begin/Pods/Target Support Files/Pods-StarWarsOpedia/Pods-StarWarsOpedia-frameworks-Release-input-files.xcfilelist
+begin/Pods/Target Support Files/Pods-StarWarsOpedia/Pods-StarWarsOpedia-frameworks-Release-output-files.xcfilelist
