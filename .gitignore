@@ -104,3 +104,175 @@ begin/Pods/Target Support Files/Pods-StarWarsOpedia/Pods-StarWarsOpedia-framewor
 begin/Pods/Target Support Files/Pods-StarWarsOpedia/Pods-StarWarsOpedia-frameworks-Debug-output-files.xcfilelist
 begin/Pods/Target Support Files/Pods-StarWarsOpedia/Pods-StarWarsOpedia-frameworks-Release-input-files.xcfilelist
 begin/Pods/Target Support Files/Pods-StarWarsOpedia/Pods-StarWarsOpedia-frameworks-Release-output-files.xcfilelist
+ComicCards/Podfile
+ComicCards/Podfile.lock
+ComicCards/ComicCards.xcodeproj/project.pbxproj
+ComicCards/ComicCards.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+ComicCards/ComicCards.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+ComicCards/ComicCards.xcodeproj/xcshareddata/IDETemplateMacros.plist
+ComicCards/ComicCards.xcworkspace/contents.xcworkspacedata
+ComicCards/ComicCards.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+ComicCards/ComicCards/Common/AppDelegate.swift
+ComicCards/ComicCards/Common/CoolStoryregular.ttf
+ComicCards/ComicCards/Common/Info.plist
+ComicCards/Pods/Alamofire/LICENSE
+ComicCards/Pods/Alamofire/README.md
+ComicCards/Pods/Alamofire/Source/AFError.swift
+ComicCards/Pods/Alamofire/Source/Alamofire.swift
+ComicCards/Pods/Alamofire/Source/AlamofireExtended.swift
+ComicCards/Pods/Alamofire/Source/AuthenticationInterceptor.swift
+ComicCards/Pods/Alamofire/Source/CachedResponseHandler.swift
+ComicCards/Pods/Alamofire/Source/Combine.swift
+ComicCards/Pods/Alamofire/Source/Concurrency.swift
+ComicCards/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift
+ComicCards/Pods/Alamofire/Source/EventMonitor.swift
+ComicCards/Pods/Alamofire/Source/HTTPHeaders.swift
+ComicCards/Pods/Alamofire/Source/HTTPMethod.swift
+ComicCards/Pods/Alamofire/Source/MultipartFormData.swift
+ComicCards/Pods/Alamofire/Source/MultipartUpload.swift
+ComicCards/Pods/Alamofire/Source/NetworkReachabilityManager.swift
+ComicCards/Pods/Alamofire/Source/Notifications.swift
+ComicCards/Pods/Alamofire/Source/OperationQueue+Alamofire.swift
+ComicCards/Pods/Alamofire/Source/ParameterEncoder.swift
+ComicCards/Pods/Alamofire/Source/ParameterEncoding.swift
+ComicCards/Pods/Alamofire/Source/Protected.swift
+ComicCards/Pods/Alamofire/Source/RedirectHandler.swift
+ComicCards/Pods/Alamofire/Source/Request.swift
+ComicCards/Pods/Alamofire/Source/RequestInterceptor.swift
+ComicCards/Pods/Alamofire/Source/RequestTaskMap.swift
+ComicCards/Pods/Alamofire/Source/Response.swift
+ComicCards/Pods/Alamofire/Source/ResponseSerialization.swift
+ComicCards/Pods/Alamofire/Source/Result+Alamofire.swift
+ComicCards/Pods/Alamofire/Source/RetryPolicy.swift
+ComicCards/Pods/Alamofire/Source/ServerTrustEvaluation.swift
+ComicCards/Pods/Alamofire/Source/Session.swift
+ComicCards/Pods/Alamofire/Source/SessionDelegate.swift
+ComicCards/Pods/Alamofire/Source/StringEncoding+Alamofire.swift
+ComicCards/Pods/Alamofire/Source/URLConvertible+URLRequestConvertible.swift
+ComicCards/Pods/Alamofire/Source/URLEncodedFormEncoder.swift
+ComicCards/Pods/Alamofire/Source/URLRequest+Alamofire.swift
+ComicCards/Pods/Alamofire/Source/URLSessionConfiguration+Alamofire.swift
+ComicCards/Pods/Alamofire/Source/Validation.swift
+ComicCards/Pods/Kingfisher/LICENSE
+ComicCards/Pods/Kingfisher/README.md
+ComicCards/Pods/Kingfisher/Sources/Cache/CacheSerializer.swift
+ComicCards/Pods/Kingfisher/Sources/Cache/DiskStorage.swift
+ComicCards/Pods/Kingfisher/Sources/Cache/FormatIndicatedCacheSerializer.swift
+ComicCards/Pods/Kingfisher/Sources/Cache/ImageCache.swift
+ComicCards/Pods/Kingfisher/Sources/Cache/MemoryStorage.swift
+ComicCards/Pods/Kingfisher/Sources/Cache/Storage.swift
+ComicCards/Pods/Kingfisher/Sources/Extensions/ImageView+Kingfisher.swift
+ComicCards/Pods/Kingfisher/Sources/Extensions/NSButton+Kingfisher.swift
+ComicCards/Pods/Kingfisher/Sources/Extensions/NSTextAttachment+Kingfisher.swift
+ComicCards/Pods/Kingfisher/Sources/Extensions/TVMonogramView+Kingfisher.swift
+ComicCards/Pods/Kingfisher/Sources/Extensions/UIButton+Kingfisher.swift
+ComicCards/Pods/Kingfisher/Sources/Extensions/WKInterfaceImage+Kingfisher.swift
+ComicCards/Pods/Kingfisher/Sources/General/KF.swift
+ComicCards/Pods/Kingfisher/Sources/General/KFOptionsSetter.swift
+ComicCards/Pods/Kingfisher/Sources/General/Kingfisher.swift
+ComicCards/Pods/Kingfisher/Sources/General/KingfisherError.swift
+ComicCards/Pods/Kingfisher/Sources/General/KingfisherManager.swift
+ComicCards/Pods/Kingfisher/Sources/General/KingfisherOptionsInfo.swift
+ComicCards/Pods/Kingfisher/Sources/General/ImageSource/AVAssetImageDataProvider.swift
+ComicCards/Pods/Kingfisher/Sources/General/ImageSource/ImageDataProvider.swift
+ComicCards/Pods/Kingfisher/Sources/General/ImageSource/Resource.swift
+ComicCards/Pods/Kingfisher/Sources/General/ImageSource/Source.swift
+ComicCards/Pods/Kingfisher/Sources/Image/Filter.swift
+ComicCards/Pods/Kingfisher/Sources/Image/GIFAnimatedImage.swift
+ComicCards/Pods/Kingfisher/Sources/Image/GraphicsContext.swift
+ComicCards/Pods/Kingfisher/Sources/Image/Image.swift
+ComicCards/Pods/Kingfisher/Sources/Image/ImageDrawing.swift
+ComicCards/Pods/Kingfisher/Sources/Image/ImageFormat.swift
+ComicCards/Pods/Kingfisher/Sources/Image/ImageProcessor.swift
+ComicCards/Pods/Kingfisher/Sources/Image/ImageProgressive.swift
+ComicCards/Pods/Kingfisher/Sources/Image/ImageTransition.swift
+ComicCards/Pods/Kingfisher/Sources/Image/Placeholder.swift
+ComicCards/Pods/Kingfisher/Sources/Networking/AuthenticationChallengeResponsable.swift
+ComicCards/Pods/Kingfisher/Sources/Networking/ImageDataProcessor.swift
+ComicCards/Pods/Kingfisher/Sources/Networking/ImageDownloader.swift
+ComicCards/Pods/Kingfisher/Sources/Networking/ImageDownloaderDelegate.swift
+ComicCards/Pods/Kingfisher/Sources/Networking/ImageModifier.swift
+ComicCards/Pods/Kingfisher/Sources/Networking/ImagePrefetcher.swift
+ComicCards/Pods/Kingfisher/Sources/Networking/RedirectHandler.swift
+ComicCards/Pods/Kingfisher/Sources/Networking/RequestModifier.swift
+ComicCards/Pods/Kingfisher/Sources/Networking/RetryStrategy.swift
+ComicCards/Pods/Kingfisher/Sources/Networking/SessionDataTask.swift
+ComicCards/Pods/Kingfisher/Sources/Networking/SessionDelegate.swift
+ComicCards/Pods/Kingfisher/Sources/SwiftUI/ImageBinder.swift
+ComicCards/Pods/Kingfisher/Sources/SwiftUI/KFImage.swift
+ComicCards/Pods/Kingfisher/Sources/SwiftUI/KFImageOptions.swift
+ComicCards/Pods/Kingfisher/Sources/Utility/Box.swift
+ComicCards/Pods/Kingfisher/Sources/Utility/CallbackQueue.swift
+ComicCards/Pods/Kingfisher/Sources/Utility/Delegate.swift
+ComicCards/Pods/Kingfisher/Sources/Utility/ExtensionHelpers.swift
+ComicCards/Pods/Kingfisher/Sources/Utility/Result.swift
+ComicCards/Pods/Kingfisher/Sources/Utility/Runtime.swift
+ComicCards/Pods/Kingfisher/Sources/Utility/SizeExtensions.swift
+ComicCards/Pods/Kingfisher/Sources/Utility/String+MD5.swift
+ComicCards/Pods/Kingfisher/Sources/Views/AnimatedImageView.swift
+ComicCards/Pods/Kingfisher/Sources/Views/Indicator.swift
+ComicCards/Pods/Moya/License.md
+ComicCards/Pods/Moya/Readme.md
+ComicCards/Pods/Moya/Sources/Moya/AnyEncodable.swift
+ComicCards/Pods/Moya/Sources/Moya/Atomic.swift
+ComicCards/Pods/Moya/Sources/Moya/Cancellable.swift
+ComicCards/Pods/Moya/Sources/Moya/Endpoint.swift
+ComicCards/Pods/Moya/Sources/Moya/Image.swift
+ComicCards/Pods/Moya/Sources/Moya/Moya+Alamofire.swift
+ComicCards/Pods/Moya/Sources/Moya/MoyaError.swift
+ComicCards/Pods/Moya/Sources/Moya/MoyaProvider+Defaults.swift
+ComicCards/Pods/Moya/Sources/Moya/MoyaProvider+Internal.swift
+ComicCards/Pods/Moya/Sources/Moya/MoyaProvider.swift
+ComicCards/Pods/Moya/Sources/Moya/MultipartFormData.swift
+ComicCards/Pods/Moya/Sources/Moya/MultiTarget.swift
+ComicCards/Pods/Moya/Sources/Moya/Plugin.swift
+ComicCards/Pods/Moya/Sources/Moya/RequestTypeWrapper.swift
+ComicCards/Pods/Moya/Sources/Moya/Response.swift
+ComicCards/Pods/Moya/Sources/Moya/TargetType.swift
+ComicCards/Pods/Moya/Sources/Moya/Task.swift
+ComicCards/Pods/Moya/Sources/Moya/URL+Moya.swift
+ComicCards/Pods/Moya/Sources/Moya/URLRequest+Encoding.swift
+ComicCards/Pods/Moya/Sources/Moya/ValidationType.swift
+ComicCards/Pods/Moya/Sources/Moya/Plugins/AccessTokenPlugin.swift
+ComicCards/Pods/Moya/Sources/Moya/Plugins/CredentialsPlugin.swift
+ComicCards/Pods/Moya/Sources/Moya/Plugins/NetworkActivityPlugin.swift
+ComicCards/Pods/Moya/Sources/Moya/Plugins/NetworkLoggerPlugin.swift
+ComicCards/Pods/Pods.xcodeproj/project.pbxproj
+ComicCards/Pods/Target Support Files/Alamofire/Alamofire-dummy.m
+ComicCards/Pods/Target Support Files/Alamofire/Alamofire-Info.plist
+ComicCards/Pods/Target Support Files/Alamofire/Alamofire-prefix.pch
+ComicCards/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h
+ComicCards/Pods/Target Support Files/Alamofire/Alamofire.debug.xcconfig
+ComicCards/Pods/Target Support Files/Alamofire/Alamofire.modulemap
+ComicCards/Pods/Target Support Files/Alamofire/Alamofire.release.xcconfig
+ComicCards/Pods/Target Support Files/Alamofire/Alamofire.xcconfig
+ComicCards/Pods/Target Support Files/Alamofire/Info.plist
+ComicCards/Pods/Target Support Files/Kingfisher/Info.plist
+ComicCards/Pods/Target Support Files/Kingfisher/Kingfisher-dummy.m
+ComicCards/Pods/Target Support Files/Kingfisher/Kingfisher-Info.plist
+ComicCards/Pods/Target Support Files/Kingfisher/Kingfisher-prefix.pch
+ComicCards/Pods/Target Support Files/Kingfisher/Kingfisher-umbrella.h
+ComicCards/Pods/Target Support Files/Kingfisher/Kingfisher.debug.xcconfig
+ComicCards/Pods/Target Support Files/Kingfisher/Kingfisher.modulemap
+ComicCards/Pods/Target Support Files/Kingfisher/Kingfisher.release.xcconfig
+ComicCards/Pods/Target Support Files/Kingfisher/Kingfisher.xcconfig
+ComicCards/Pods/Target Support Files/Moya/Info.plist
+ComicCards/Pods/Target Support Files/Moya/Moya-dummy.m
+ComicCards/Pods/Target Support Files/Moya/Moya-Info.plist
+ComicCards/Pods/Target Support Files/Moya/Moya-prefix.pch
+ComicCards/Pods/Target Support Files/Moya/Moya-umbrella.h
+ComicCards/Pods/Target Support Files/Moya/Moya.debug.xcconfig
+ComicCards/Pods/Target Support Files/Moya/Moya.modulemap
+ComicCards/Pods/Target Support Files/Moya/Moya.release.xcconfig
+ComicCards/Pods/Target Support Files/Moya/Moya.xcconfig
+ComicCards/Pods/Target Support Files/Pods-ComicCards/Info.plist
+ComicCards/Pods/Target Support Files/Pods-ComicCards/Pods-ComicCards-acknowledgements.markdown
+ComicCards/Pods/Target Support Files/Pods-ComicCards/Pods-ComicCards-acknowledgements.plist
+ComicCards/Pods/Target Support Files/Pods-ComicCards/Pods-ComicCards-dummy.m
+ComicCards/Pods/Target Support Files/Pods-ComicCards/Pods-ComicCards-frameworks.sh
+ComicCards/Pods/Target Support Files/Pods-ComicCards/Pods-ComicCards-Info.plist
+ComicCards/Pods/Target Support Files/Pods-ComicCards/Pods-ComicCards-resources.sh
+ComicCards/Pods/Target Support Files/Pods-ComicCards/Pods-ComicCards-umbrella.h
+ComicCards/Pods/Target Support Files/Pods-ComicCards/Pods-ComicCards.debug.xcconfig
+ComicCards/Pods/Target Support Files/Pods-ComicCards/Pods-ComicCards.modulemap
+ComicCards/Pods/Target Support Files/Pods-ComicCards/Pods-ComicCards.release.xcconfig
