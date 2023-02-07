@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='macos' buildActiveScheme='true' executeOnSourceChanges='true' importAppTypes='true'>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
     <pages>
         <page name='Homework-1'/>
         <page name='Homework-2'/>
@@ -50,5 +50,7 @@
         <page name='Touples'/>
         <page name='Operators functions'/>
         <page name='Lesson-27. Protocols'/>
+        <page name='Homework 27'/>
+        <page name='Closures'/>
     </pages>
 </playground>
