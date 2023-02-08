@@ -52,5 +52,7 @@
         <page name='Lesson-27. Protocols'/>
         <page name='Homework 27'/>
         <page name='Closures'/>
+        <page name='ARC in Closures'/>
+        <page name='MethodDispatch'/>
     </pages>
 </playground>
