@@ -66,10 +66,10 @@
 				CE5D918929780E7900640E85 /* SceneDelegate.swift */,
 				CE5D918B29780E7900640E85 /* ViewController.swift */,
 				CE5D919B29786CDE00640E85 /* Post.swift */,
+				CE5D919D297876DC00640E85 /* NetworkManager.swift */,
 				CE5D918D29780E7900640E85 /* Main.storyboard */,
 				CE5D919029780E7E00640E85 /* Assets.xcassets */,
 				CE5D919229780E7E00640E85 /* LaunchScreen.storyboard */,
-				CE5D919D297876DC00640E85 /* NetworkManager.swift */,
 				CE5D919529780E7E00640E85 /* Info.plist */,
 			);
 			path = HTTPRequest;
