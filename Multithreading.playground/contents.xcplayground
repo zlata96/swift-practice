@@ -6,5 +6,8 @@
         <page name='NSRecursiveLock &amp; Mutex Recursive lock 4'/>
         <page name='Untitled Page'/>
         <page name='NSCondition,NSLocking, pthread_cond_t'/>
+        <page name='ReadWriteLock'/>
+        <page name='GCD'/>
+        <page name='GCD practise '/>
     </pages>
 </playground>
