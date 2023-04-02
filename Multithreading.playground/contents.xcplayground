@@ -9,5 +9,7 @@
         <page name='ReadWriteLock'/>
         <page name='GCD'/>
         <page name='GCD practise '/>
+        <page name='DispatchWorkItem'/>
+        <page name='GCD AsyncAfter'/>
     </pages>
 </playground>
