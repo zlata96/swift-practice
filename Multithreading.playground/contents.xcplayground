@@ -11,5 +11,7 @@
         <page name='GCD practise '/>
         <page name='DispatchWorkItem'/>
         <page name='GCD AsyncAfter'/>
+        <page name='Dispatch Group'/>
+        <page name='GCD Semaphore'/>
     </pages>
 </playground>
