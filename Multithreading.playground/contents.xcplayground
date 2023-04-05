@@ -14,5 +14,8 @@
         <page name='Dispatch Group'/>
         <page name='Barier'/>
         <page name='GCD Semaphore'/>
+        <page name='Operation&amp;Operation Queue'/>
+        <page name='BlockOperation'/>
+        <page name='DispatchSource'/>
     </pages>
 </playground>
